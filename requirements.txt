@@ -1,0 +1,15 @@
+# Real-Time Object Detection and SORT Tracking
+# ------------------------------------------------
+# Install with:  pip install -r requirements.txt
+
+# Core computer vision
+opencv-python>=4.8.0          # Video capture, drawing, display
+numpy>=1.24.0                 # Array operations
+
+# Object detection (YOLO)
+ultralytics>=8.0.0            # YOLOv8 model + inference API
+# torch and torchvision are installed automatically by ultralytics
+
+# SORT tracking
+filterpy>=1.4.5               # Kalman Filter
+scipy>=1.10.0                 # Hungarian algorithm (linear_sum_assignment)
